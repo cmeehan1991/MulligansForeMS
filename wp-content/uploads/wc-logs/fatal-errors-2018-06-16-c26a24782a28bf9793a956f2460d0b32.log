@@ -1,0 +1,33 @@
+2018-06-16T12:09:28+00:00 CRITICAL Uncaught Error: Call to undefined function wp_register_scrip() in /Applications/MAMP/htdocs/mulligansforems/wp-content/themes/mulligans/includes/functions/functions-assets.php:6
+Stack trace:
+#0 /Applications/MAMP/htdocs/mulligansforems/wp-includes/class-wp-hook.php(286): theme_jquery('')
+#1 /Applications/MAMP/htdocs/mulligansforems/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/mulligansforems/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/mulligansforems/wp-includes/script-loader.php(1447): do_action('wp_enqueue_scri...')
+#4 /Applications/MAMP/htdocs/mulligansforems/wp-includes/class-wp-hook.php(286): wp_enqueue_scripts('')
+#5 /Applications/MAMP/htdocs/mulligansforems/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/mulligansforems/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/mulligansforems/wp-includes/general-template.php(2614)
+
+2018-06-16T12:09:31+00:00 CRITICAL Uncaught Error: Call to undefined function wp_register_scrip() in /Applications/MAMP/htdocs/MulligansForeMS/wp-content/themes/mulligans/includes/functions/functions-assets.php:6
+Stack trace:
+#0 /Applications/MAMP/htdocs/MulligansForeMS/wp-includes/class-wp-hook.php(286): theme_jquery('')
+#1 /Applications/MAMP/htdocs/MulligansForeMS/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/MulligansForeMS/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/MulligansForeMS/wp-includes/script-loader.php(1447): do_action('wp_enqueue_scri...')
+#4 /Applications/MAMP/htdocs/MulligansForeMS/wp-includes/class-wp-hook.php(286): wp_enqueue_scripts('')
+#5 /Applications/MAMP/htdocs/MulligansForeMS/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/MulligansForeMS/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/MulligansForeMS/wp-includes/general-template.php(2614)
+
+2018-06-16T12:09:32+00:00 CRITICAL Uncaught Error: Call to undefined function wp_register_scrip() in /Applications/MAMP/htdocs/MulligansForeMS/wp-content/themes/mulligans/includes/functions/functions-assets.php:6
+Stack trace:
+#0 /Applications/MAMP/htdocs/MulligansForeMS/wp-includes/class-wp-hook.php(286): theme_jquery('')
+#1 /Applications/MAMP/htdocs/MulligansForeMS/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/MulligansForeMS/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/MulligansForeMS/wp-includes/script-loader.php(1447): do_action('wp_enqueue_scri...')
+#4 /Applications/MAMP/htdocs/MulligansForeMS/wp-includes/class-wp-hook.php(286): wp_enqueue_scripts('')
+#5 /Applications/MAMP/htdocs/MulligansForeMS/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/MulligansForeMS/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/MulligansForeMS/wp-includes/general-template.php(2614)
+
